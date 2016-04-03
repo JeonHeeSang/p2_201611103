@@ -1,0 +1,18 @@
+﻿title Cinditional - R S P Game
+start
+:get user input a;
+:get user input b;
+if (s wins)
+    :a=="s",b=="p" or a=="p",b=="s";
+    :user who selects s wins;
+elseif(r wins)
+     :a=="r",b=="s" or a=="s",b=="r";
+     :user who selects r wins;
+elseif(p wins)
+     :a=="p",b=="r" or a=="r",b=="p";
+     :user who selects p wins;
+elseif(draws)
+     :a==b;
+     :No winners;
+endif
+stop
