@@ -1,0 +1,17 @@
+﻿title-BMI calculator 
+start
+:height=180;
+:weight=70;
+:bmi = weight/(height*height);
+if (bmi<=18.5)
+:underweight;
+elseif (18.5<bmi<=23)
+:normalweight;
+elseif (23<bmi<=25)
+:overweight;
+elseif (25<bmi<=30)
+:obesity;
+elseif (bmi>30)
+:an seriously obese;
+endif
+stop
