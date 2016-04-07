@@ -1,0 +1,13 @@
+﻿start
+:user input range number(==rn);
+:computer choose number in range;
+while (r1=s1)  is (no)
+if(s1>r1)
+  :print down;
+elseif(s1<r1)
+  :print up;
+else
+  :print error;
+endif
+endwhile
+stop
