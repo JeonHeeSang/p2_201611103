@@ -1,3 +1,4 @@
+x=list()
 ﻿def sumList(x):
     x=list()
     for i in range(1,1000):
