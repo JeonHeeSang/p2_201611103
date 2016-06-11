@@ -73,15 +73,15 @@ def keyup():
     if isInCircle(center,radius,pt):
         t2.pencolor("red")
         Circle()
-        t1_set()
+        t1_start()
     elif isInRectangle(pt,coord):
         t2.pencolor("red")
         Rectangle()
-        t1_set()
+        t1_start()
     elif isOnLine(pt,pos1,pos2):
         t2.pencolor("red")
         Line()
-        t1_set()
+        t1_start()
 
         
 def keyleft():
