@@ -16,7 +16,7 @@ def dogsound():
     mydog.talk()
     myshitzu=ShiTzuDog('poppy')
     myshitzu.talk()
-    mymaltese=MalteseDog('poppy')
+    mymaltese=Maltese('poppy')
     mymaltese.talk()
     
 def lab14():
